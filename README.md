@@ -118,10 +118,6 @@ You can customize the appearance of notifications by adding your own CSS that wi
 
 Compatible with all modern browsers (Chrome, Firefox, Safari, Edge).
 
-## License
-
-[MIT](LICENSE)
-
 ---
 
 Created with ❤️ to simplify the user experience. Feel free to contribute!
