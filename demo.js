@@ -31,13 +31,17 @@ document.addEventListener('DOMContentLoaded', function() {
     applyOptionsBtn.addEventListener('click', function() {
         // Get option values
         const position = document.getElementById('position').value;
-        const duration = parseInt(document.getElementById('duration').value);
+        const durationAnimation = parseInt(document.getElementById('durationAnimation').value);
+        const durationDisplay = parseInt(document.getElementById('durationDisplay').value);
+
+
         
         // Create a new instance with updated options
         // We reset the instance to avoid issues with multiple containers
         notifSystem = new NotificationSystem({
             position: position,
-            duration: duration
+            duration: durationDisplay,
+            animationDuration: durationAnimation, 
         });
         
         // Display notification to confirm the change
